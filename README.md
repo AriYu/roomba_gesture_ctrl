@@ -2,7 +2,18 @@
 
 roomba driver とkinect(v1)を組み合わせてジェスチャでroombaを操作する。
 
-`ros-indigo-openni`が必要。
+## dependency
+
+### `openni`
+
+```bash
+sudo apt-get install ros-indigo-openni-camera
+sudo apt-get install ros-indigo-openni-launch
+```
+
+### `openni_tracker`
+
+https://github.com/ros-drivers/openni_tracker
 
 ## example
 [server]kinectがつながっているPC
