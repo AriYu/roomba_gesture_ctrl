@@ -4,14 +4,14 @@ roomba driver とkinect(v1)を組み合わせてジェスチャでroombaを操�
 
 ## dependency
 
-### `openni`
+- `openni`
 
 ```bash
 sudo apt-get install ros-indigo-openni-camera
 sudo apt-get install ros-indigo-openni-launch
 ```
 
-### `openni_tracker`
+- `openni_tracker`
 
 https://github.com/ros-drivers/openni_tracker
 
@@ -30,7 +30,7 @@ export ROS_HOSTNAME=192.168.11.30
 export ROS_MASTER_URI=http://192.168.11.31:11311
 ```
 
-起動手順
+起動手順  
 [server]
 
 ```bash
